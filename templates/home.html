@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+{% for tweet in tweets %}
+	<p>{{ tweet.author.username }}</p>
+	<p>{{ tweet.message }}</p>
+{% endfor %}
+
+</body>
+</html>
